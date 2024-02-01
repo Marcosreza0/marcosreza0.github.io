@@ -66,6 +66,19 @@ nav.navbar a.navbar-brand {
 nav.navbar a.nav-link {
     color: #000000; /* Set link text color to red */
 }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        #marcos-heading, #developer-tag {
+            color: rgb(0, 0, 0);
+            animation: fadeIn 3s; /* Adjust the duration as needed */
+        }
 
 /* Navbar toggler icon color */
 nav.navbar-toggler-icon {
